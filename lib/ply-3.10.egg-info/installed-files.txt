@@ -1,0 +1,17 @@
+../ply/cpp.py
+../ply/__init__.py
+../ply/lex.py
+../ply/ctokens.py
+../ply/ygen.py
+../ply/yacc.py
+../ply/cpp.pyc
+../ply/__init__.pyc
+../ply/lex.pyc
+../ply/ctokens.pyc
+../ply/ygen.pyc
+../ply/yacc.pyc
+./
+PKG-INFO
+SOURCES.txt
+top_level.txt
+dependency_links.txt
