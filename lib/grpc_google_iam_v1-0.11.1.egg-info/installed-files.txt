@@ -1,0 +1,14 @@
+../google/iam/v1/iam_policy_pb2.py
+../google/iam/v1/__init__.py
+../google/iam/v1/policy_pb2.py
+../google/iam/v1/iam_policy_pb2.pyc
+../google/iam/v1/__init__.pyc
+../google/iam/v1/policy_pb2.pyc
+./
+PKG-INFO
+SOURCES.txt
+top_level.txt
+requires.txt
+namespace_packages.txt
+dependency_links.txt
+../grpc_google_iam_v1-0.11.1-nspkg.pth

@@ -24,9 +24,11 @@ libraries:
   version: 2.6
 - name: ssl
   version: 2.7.11
+- name: setuptools
+  version: 0.6c11
 
 env_variables:
   # The following values are to be replaced by information from the output of
   # 'gcloud service-management deploy swagger.json' command.
   ENDPOINTS_SERVICE_NAME: "single-odyssey-175503.appspot.com"
-  ENDPOINTS_SERVICE_VERSION: 2017-08-01r2
+  ENDPOINTS_SERVICE_VERSION: 2017-08-01r21

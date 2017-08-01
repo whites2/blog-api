@@ -1,0 +1,16 @@
+../google/cloud/gapic/pubsub/v1/subscriber_client.py
+../google/cloud/gapic/pubsub/v1/publisher_client.py
+../google/cloud/gapic/pubsub/v1/__init__.py
+../google/cloud/gapic/pubsub/v1/publisher_client_config.json
+../google/cloud/gapic/pubsub/v1/subscriber_client_config.json
+../google/cloud/gapic/pubsub/v1/subscriber_client.pyc
+../google/cloud/gapic/pubsub/v1/publisher_client.pyc
+../google/cloud/gapic/pubsub/v1/__init__.pyc
+./
+PKG-INFO
+SOURCES.txt
+top_level.txt
+requires.txt
+namespace_packages.txt
+dependency_links.txt
+../gapic_google_cloud_pubsub_v1-0.15.4-nspkg.pth

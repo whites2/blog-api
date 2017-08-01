@@ -17,6 +17,10 @@
         "content": {
           "type": "string"
         },
+        "entry": {
+          "format": "int32",
+          "type": "integer"
+        },
         "n": {
           "default": 1,
           "format": "int64",
@@ -42,6 +46,100 @@
             "schema": {
               "$ref": "#/definitions/ProtorpcMessagesCombinedContainer"
             }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A successful response",
+            "schema": {
+              "$ref": "#/definitions/MainBlogResponse"
+            }
+          }
+        }
+      }
+    },
+    "/blog/v1/delete/{entry}": {
+      "delete": {
+        "operationId": "BlogApi_delete",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "content",
+            "type": "string"
+          },
+          {
+            "format": "int32",
+            "in": "path",
+            "name": "entry",
+            "type": "integer"
+          },
+          {
+            "default": 1,
+            "format": "int64",
+            "in": "query",
+            "name": "n",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A successful response",
+            "schema": {
+              "$ref": "#/definitions/MainBlogResponse"
+            }
+          }
+        }
+      }
+    },
+    "/blog/v1/edit/{entry}": {
+      "post": {
+        "operationId": "BlogApi_edit",
+        "parameters": [
+          {
+            "format": "int32",
+            "in": "path",
+            "name": "entry",
+            "type": "integer"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ProtorpcMessagesCombinedContainer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A successful response",
+            "schema": {
+              "$ref": "#/definitions/MainBlogResponse"
+            }
+          }
+        }
+      }
+    },
+    "/blog/v1/get/{entry}": {
+      "get": {
+        "operationId": "BlogApi_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "content",
+            "type": "string"
+          },
+          {
+            "format": "int32",
+            "in": "path",
+            "name": "entry",
+            "type": "integer"
+          },
+          {
+            "default": 1,
+            "format": "int64",
+            "in": "query",
+            "name": "n",
+            "type": "string"
           }
         ],
         "responses": {
